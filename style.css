@@ -1,0 +1,113 @@
+body {
+    background-color: #777;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.wrapper {
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ebebeb;
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ebebeb;
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#left {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 495px;
+    height: 265px;
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+    padding-top: 20px;
+}
+#article {
+    position: relative;
+    top: 5px;
+    border: 1px solid #777;
+    width: 95%;
+    height: 71%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #777;
+    color: #ebebeb;
+}
+#h1h2h3 {
+    position: relative;
+    top: 1px;
+    width: 90%;
+    height: 28%;
+    margin: auto;
+    background-color: #ebebeb;
+    color: #777;
+}
+#h1h2h3 > h4 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -9px;
+}
+#pelement {
+    position: relative;
+    top: 10px;
+    width: 90%;
+    height: 28%;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #ebebeb;
+    color: #777;
+}
+#pelement > p {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin-top: -9px;
+}
+#right {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 440px;
+    height: 265px;
+    background-color: #ebebeb;
+    color: #777;
+    text-align: center;
+    padding-top: 20px;
+}
+footer {
+    float: left;
+    width: 960px;
+    border: 1px solid #ebebeb;
+    background-color: #ebebeb;
+    margin-top: 10px;
+    color: #777;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.clearfix::after {
+	Content: “”;
+	display: block;
+	clear: both;
+}
